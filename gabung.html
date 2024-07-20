@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/logo-removebg-preview.png" type="">
+    <title>Gabung
+    </title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            font-size: large;
+            background-color: rgba(0, 0, 0, 0.814);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            padding: 20px;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid black;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: black;
+        }
+
+        .back-button {
+            background-color: black;
+        }
+
+        .back-button:hover {
+            background-color: black;
+        }
+
+
+        @media (min-width: 768px) {
+            form {
+                width: 50%;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            form {
+                width: 30%;
+            }
+        }
+        .oshi-option {
+            background-color: black;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            font-size: large;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <form id="registrationForm">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="nomor_whatsapp">Nomor Whatsapp:</label>
+        <input type="text" id="nomor_whatsapp" name="nomor_whatsapp" required>
+
+        <label for="Domisili">Domisili:</label>
+        <input type="text" id="Domisili" name="Domisili" required>
+
+        <label for="pilih_oshi">Pilih Oshi:</label>
+        <select id="pilih_oshi" name="pilih_oshi">
+            <option class="oshi-option" value="amanda_sukma">Amanda Sukma</option>
+            <option class="oshi-option" value="angelina_christy">Angelina Christy</option>
+            <option class="oshi-option" value="aurellia">Aurellia</option>
+            <option class="oshi-option" value="azizi_asadel">Azizi Asadel</option>
+            <option class="oshi-option" value="callista_alifia">Callista Alifia</option>
+            <option class="oshi-option" value="cornelia_vanisa">Cornelia Vanisa</option>
+            <option class="oshi-option" value="febriola_sinambela">Febriola Sinambela</option>
+            <option class="oshi-option" value="feni_fitriyanti">Feni Fitriyanti</option>
+            <option class="oshi-option" value="fiony_alveria">Fiony Alveria</option>
+            <option class="oshi-option" value="flora_shafiq">Flora Shafiq</option>
+            <option class="oshi-option" value="freya_jayawardana">Freya Jayawardana</option>
+            <option class="oshi-option" value="gabriela_abigail">Gabriela Abigail</option>
+            <option class="oshi-option" value="gita_sekar_andarini">Gita Sekar Andarini</option>
+            <option class="oshi-option" value="grace_octaviani">Grace Octaviani</option>
+            <option class="oshi-option" value="greesella_adhalia">Greesella Adhalia</option>
+            <option class="oshi-option" value="helisma_putri">Helisma Putri</option>
+            <option class="oshi-option" value="indah_cahya">Indah Cahya</option>
+            <option class="oshi-option" value="indira_seruni">Indira Seruni</option>
+            <option class="oshi-option" value="jessica_chandra">Jessica Chandra</option>
+            <option class="oshi-option" value="jesslyn_elly">Jesslyn Elly</option>
+            <option class="oshi-option" value="kathrina_irene">Kathrina Irene</option>
+            <option class="oshi-option" value="lulu_salsabila">Lulu Salsabila</option>
+            <option class="oshi-option" value="marsha_lenathea">Marsha Lenathea</option>
+            <option class="oshi-option" value="mutiara_azzahra">Mutiara Azzahra</option>
+            <option class="oshi-option" value="raisha_syifa">Raisha Syifa</option>
+            <option class="oshi-option" value="reva_fidela">Reva Fidela</option>
+            <option class="oshi-option" value="shania_gracia">Shania Gracia</option>
+            <option class="oshi-option" value="abigail_rachel">Abigail Rachel</option>
+            <option class="oshi-option" value="adeline_wijaya">Adeline Wijaya</option>
+            <option class="oshi-option" value="aurhel_alana">Aurhel Alana</option>
+            <option class="oshi-option" value="catherina_vallencia">Catherina Vallencia</option>
+            <option class="oshi-option" value="fritzy_rosmerian">Fritzy Rosmerian</option>
+            <option class="oshi-option" value="hillary_abigail">Hillary Abigail</option>
+            <option class="oshi-option" value="jazzlyn_trisha">Jazzlyn Trisha</option>
+            <option class="oshi-option" value="victoria_kimberly">Victoria Kimberly</option>
+            <option class="oshi-option" value="shabilqis_naila">Shabilqis Naila</option>
+            <option class="oshi-option" value="ribka_budiman">Ribka Budiman</option>
+            <option class="oshi-option" value="regina_wilian">Regina Wilian</option>
+            <option class="oshi-option" value="oline_manuel">Oline Manuel</option>
+            <option class="oshi-option" value="nina_tutachia">Nina Tutachia</option>
+            <option class="oshi-option" value="nayla_suji">Nayla Suji</option>
+            <option class="oshi-option" value="michelle_levia">Michelle Levia</option>
+            <option class="oshi-option" value="letycia_moreen">Letycia Moreen</option>
+        </select>
+
+        <div class="button-container">
+            <button type="button" class="back-button" onclick="history.back()">Kembali</button>
+        <button type="submit">Gabung</button>
+
+    </form>
+
+    <script>
+        document.getElementById('registrationForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var nama = document.getElementById('nama').value;
+            var nomorWhatsapp = document.getElementById('nomor_whatsapp').value;
+            var Domisili = document.getElementById('Domisili').value;
+            var pilihOshi = document.getElementById('pilih_oshi').value;
+
+            var message = `Bang gabung bang:%0ANama: ${nama}%0ANomor Whatsapp: ${nomorWhatsapp}%0APilih Oshi: ${pilihOshi}`;
+            var whatsappUrl = `https://api.whatsapp.com/send?phone=6288742613704&text=${message}`;
+
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
+</body>
+</html>
