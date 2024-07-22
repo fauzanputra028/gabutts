@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: rgba(0, 0, 0, 0.814);
+        }
+        .news-section {
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .news-header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .news-item {
+            border-bottom: 1px solid white;
+            padding: 10px 0;
+        }
+        .news-date {
+            font-size: 14px;
+            color: #888;
+        }
+        .news-title {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        .news-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            background-color: black;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-right: 5px;
+        }
+        .check-all {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .news-link {
+            text-decoration: none;
+            color: white;
+        }
+        .news-link:hover .news-title {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .news-section {
+                width: 100%;
+                margin: 10px;
+                box-shadow: none;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="news-section">
+        <div class="news-header">NEWS</div>
+        <a href="./berita1.html" class="news-link">
+            <div class="news-item">
+                <div class="news-tag">EVENT</div>
+                <div class="news-date">tanggal</div>
+                <div class="news-title">Nobar sts mbak oniel hehhehe</div>
+            </div>
+        </a>
+        <a href="./berita1.html" class="news-link">
+            <div class="news-item">
+                <div class="news-tag">EVENT</div>
+                <div class="news-date">tanggal</div>
+                <div class="news-title">Nobar sts mbak oniel hehhehe</div>
+            </div>
+        </a>
+        <a href="./berita1.html" class="news-link">
+            <div class="news-item">
+                <div class="news-tag">EVENT</div>
+                <div class="news-date">tanggal</div>
+                <div class="news-title">Nobar sts mbak oniel hehhehe</div>
+            </div>
+        </a>
+        <a href="./berita1.html" class="news-link">
+            <div class="news-item">
+                <div class="news-tag">EVENT</div>
+                <div class="news-date">tanggal</div>
+                <div class="news-title">Nobar sts mbak oniel hehhehe</div>
+            </div>
+        </a>
+        <a href="#" class="check-all">Check All</a>
+    </div>
+</body>
+</html>
